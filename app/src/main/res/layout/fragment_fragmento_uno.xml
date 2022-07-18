@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".FragmentoUno">
 
-    <TextView
-        android:id="@+id/Fragmento1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragmento UNO"
-        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/TextoUno"
+        android:layout_width="338dp"
+        android:layout_height="237dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fragmento Uno"
+        android:visibility="visible" />
 </FrameLayout>
